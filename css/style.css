@@ -875,54 +875,125 @@ section .inner{
     height: 320px;
     object-fit: cover;
 }
-
-.graphic .inner h2{
-    font-family: var(--eng-font);
-    color: var(--main-color);
-    font-size: 5.5rem;
-    margin-bottom: 7rem;
-    text-align: center;
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .left02 h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #d67119;
 }
-.graphic .inner .list{
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .left02 .concept h4{
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #d67119;
+}
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .left02 .concept p{
+    line-height: 1.5;
+    font-size: 15px;
+}
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .left02 .pdf01 .btn{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-    row-gap: 2rem;
+    gap: 20px;
 }
-.graphic .inner .list a{
-    width: 30%;
-    height: 40rem;
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .left02 .pdf01 .btn a{
+    display: block;
+    margin-top: 20px;
+    width: 150px;
+    height: 60px;
+    border: 1px solid #aaa;
     border-radius: 20px;
-    overflow: hidden;
-    border: 1px solid #9c9c9c;
-    position: relative;
+    text-align: center;
+    line-height: 60px;
+    transition: 0.7s;
 }
-.graphic .inner .list a::after{
-    content: '';
-    width: 5rem;
-    height: 5rem;
-    background: url(../img/포토샵로고.png)center center / 100% no-repeat;
-    position: absolute;
-    top: 5%;
-    right: 5%;
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .left02 .pdf01 .btn a:hover{
+    background-color: #e0812f;
+    transition: 0.7s;
+    color: #fff;
 }
-.graphic .inner .list a:nth-child(8)~::after{
-    width: 5.5rem;
-    height: 5.5rem;
-    background-image: url(../img/일러스트로고.png);
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .left02{
+    width: 45%;
 }
-.graphic .inner .list a img{
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .left02 > span{
+    display: flex;
+    justify-content: flex-end;
+}
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .left02 > h4{
+    font-size: 45px;
+    margin-bottom: 35px;
+}
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .left02 h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #d67119;
+}
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .left02 .text{
+    display: flex;
+}
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .left02 .text .text01{
+    margin-right: 45px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .left02 .text .text01 span{
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+}
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .left02 .text .text02{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .left02 .text .text02 p{
+    font-size: 18px;
+}
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .left02 .concept{
+    font-family: var(--eng-font);
+    margin-top: 20px;
+}
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .box07 h5{
+    font-weight: bold;
+    color: #d67119;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .box07 .item{
+    display: flex;
+    justify-content: space-between;
+}
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .box07 .img01{
+    width: 49%;
+}
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .box07 .img01 p{
+    font-size: 14px;
+    margin-top: 20px;
+}
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .box07 .img02{
+    width: 49%;
+}
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .box07 .img02 p{
+    font-size: 14px;
+    margin-top: 20px;
+}
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .box07 .img01 a{
+    width: 100%;
+    height: 581px;
+}
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .box07 .img01 a img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: 0.7s;
 }
-.graphic .inner .list a:hover img{
-    transform: scale(1.2);
-    transition: 0.7s;
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .box07 .img02 a{
+    width: 100%;
+    height: 100%;
 }
+.project .inner .btn01 .list .item .mySwiper .swiper-wrapper .swiper-slide .box07 .img02 a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 .text .text_wrap{
     display: flex;
